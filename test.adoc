@@ -24,3 +24,41 @@ AsciiDoc supports:
 ```python  
 def hello_world():  
     print("Hello, GitHub!") 
+```
+
+
+|===
+| *Merged Header* 2+ | *Normal Column*  
+
+| Cell 1 
+| Cell 2  
+| Cell 3
+|===
+
+|===
+| *Header 1* | *Header 2*  
+2+| *Merged Rows* .+ | Cell A  
+| Cell B  
+|===
+
+[cols="e,m,^,>s",width="25%"]
+|===
+|1 >s|2 |3 |4
+^|5 2.2+^.^|6 .3+<.>m|7
+^|8
+|9 2+>|10
+|===
+
+----
+= Title of Document
+Doc Writer
+:toc:
+
+This guide provides...
+----
+
+====
+*We are the champions, my friends*
+
+Hello there Mr Cornwall!
+====
