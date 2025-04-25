@@ -1,0 +1,26 @@
+= Sample AsciiDoc Document for GitHub  
+:source-highlighter: pygments  
+:toc: auto  
+
+== Introduction  
+This is a test file to check how *GitHub* renders **AsciiDoc** (`.adoc`).  
+
+AsciiDoc supports:  
+- *Italic* and **bold** text  
+- `monospace` and `` `code` `` in-line  
+- <<section2,Cross-references>>  
+- https://github.com[External links]  
+
+== Section 1: Basic Formatting  
+
+=== Lists  
+* Unordered item 1  
+* Unordered item 2  
+
+. Ordered item 1  
+. Ordered item 2  
+
+=== Code Blocks  
+```python  
+def hello_world():  
+    print("Hello, GitHub!") 
