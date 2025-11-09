@@ -1,32 +1,33 @@
 = Main screen
 
-[cols="h,1"]
+[cols="1,1"]
 |===
-|URL
+|*URL*
 |/
 
-|Related requirements
+|*Related requirements*
 |
 
-|Tasks
+|*Tasks*
 |
 
 |===
 
 == Creating a task
 
-[cols="5a,5a"]
+[cols="5a,5a,5a"]
 |===
-|Requirements|Comments
+|Requirements|UI|Comments
 
-|*Requirements to the ##Task name## field*
+|*Requirements for the ##Task name## field*
 
 * `type`: text_input
-* `max_length`: 500
 * `min_length`: 1
+* `max_length`: 500
+| —
 | —
 
-|*Requirements to the ##Create task## button*
+|*Requirements for the ##Create task## button*
 
 * `type`: button
 * `when_disabled`: at least one of the conditions is met
@@ -36,6 +37,7 @@
 ** Send an http request `POST /items` (Create a list)
 ** If 200: Send an http request `GET /items` (Request a fresh list of items)
 ** If not 200: Show error notification
+| `+` button on UI
 | —
 
 |===
