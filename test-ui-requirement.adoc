@@ -1,0 +1,42 @@
+= Main screen
+
+[cols="h,1"]
+|===
+|URL
+|/
+
+|Related requirements
+|
+
+|Tasks
+|
+
+|===
+
+== Creating a task
+
+[cols="5a,5a"]
+|===
+|Requirements|Comments
+
+|*Requirements to the ##Task name## field*
+
+* `type`: text_input
+* `max_length`: 500
+* `min_length`: 1
+| —
+
+|*Requirements to the ##Create task## button*
+
+* `type`: button
+* `when_disabled`: at least one of the conditions is met
+** ##Task name## is empty
+** ##Task name## contains too many characters
+* `on_click`:
+** Send an http request `POST /items` (Create a list)
+** If 200: Send an http request `GET /items` (Request a fresh list of items)
+** If not 200: Show error notification
+| —
+
+|===
+
