@@ -1,0 +1,47 @@
+= ARC-3 Arc Thrower
+
+[cols="1a,1a"]
+|===
+| *Description*
+| A support weapon that projects an arc of lightning that can chain between multiple targets.
+
+| *Sway*
+| 1
+
+| *Ergonomics*
+| 50
+
+| *Cooldown*
+| 480 sec
+
+| *Call-in Time*
+| 3s
+
+| *Standard damage*
+| 250 (Arc)
+
+| *Durable damage*
+| 100 (Arc)
+
+| *Penetration*
+| * Direct: `7`
+* Slight Angle: `7`
+* Large Angle: `7`
+* Extreme Angle: `0`
+
+| *Stun* 
+| 8
+
+| *Demolition Force*
+| 20
+
+| *Stagger force*
+| 35
+
+| *Push force*
+| 10
+
+|===
+- `Durable damage`: 100
+- `Damage type`: Arc
+  
