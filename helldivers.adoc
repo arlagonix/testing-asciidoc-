@@ -42,6 +42,22 @@
 | 10
 
 |===
-- `Durable damage`: 100
-- `Damage type`: Arc
-  
+
+== Requirements
+
+[cols="1a,1a"]
+|===
+| Requirements | Comments |
+
+| *In order to shoot the weapon you must charge it for at least 1s*
+
+* If released after < 1 sec, no shot is fired
+* Charging for more than 1 sec doesn't give any benefits
+* While charging a shot the player always walks
+* The moment the arc thrower is charged an audio plays and the weapon starts to glow
+| -
+
+| *If the weapon is charged, when *
+| 
+
+|===
